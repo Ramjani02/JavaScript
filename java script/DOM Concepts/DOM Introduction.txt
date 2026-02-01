@@ -1,0 +1,60 @@
+DOM Introduction:
+/*
+ Document Object Model
+HTML DOM:
+ * The Document Object Model represents the whole html document.
+ * When a web page is loaded, the browser creates a Document Object Model of the page.
+ * Document Object Model is the root element of the HTML document. It defines,
+ * Properties.
+ * Methods.
+ * Events.
+ * By the help of Document Object Model, we can add dynamic content to our web page.
+ * <button type="submit" onclick=myFunction()></button>
+ * type is called as a Attribute.
+ * onclick is called as a Event.
+ * myFunction() is called as a Method.
+ * button is called as a Element.
+ DOM:
+ * Document: XML File, HTML File.
+ * Object: <h1></h1>, <span></span>, <img></img>
+ * Model: Structure.
+ * DOM Tree Structure.
+ 
+ What can we do with the DOM?
+ * We can add new HTML elements and attributes.
+ * We can change all the HTML elements, attributes and CSS styles.
+ * We can remove existing HTML elements and attributes.
+ * We can create a new HTML events.
+ HTML DOM METHODS & PROPERTIES:
+ DOM METHODS:
+ * getElementById
+ * getElementByClassName
+ * getElementByName
+ * getElementByTagName
+ * querySelector
+ * querySelectorAll
+ * addEventListener
+ * getAttribute
+ * setAttribute
+ * Etc...
+ DOM PROPERTIES:
+ * innerHTML
+ * innerText
+ * classList
+ * className
+ * tagName
+ * firstChild
+ * firstElementChild
+ * lastChild
+ * lastElementChild
+ * Etc...
+ DOM EVENTS:
+ * onclick
+ * onload
+ * onchange
+ * onmouseover
+ * onmouseout
+ * onmouseup
+ * onmousedown
+ * Etc...
+*/

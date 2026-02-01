@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Onclick type</title>
+ <style>
+ #box{
+ height:200px;
+ width:200px;
+ background-color: blue;
+ box-shadow: 1px 1px 10px 1px black;
+ }
+ 
+ img{
+ height:50%;
+ width:50%;
+ }
+ #box1, img{
+ border-radius: 30px;
+ }
+ </style>
+</head>
+<body>
+ <div id="box">
+ 
+ </div>
+ <br>
+ <button onclick="changeColor('red')">Red</button>
+ <button onclick="changeColor('green')">Green</button>
+ <button onclick="changeColor('orange')">Orange</button>
+ <hr>
+ 
+ <div id="box1">
+ <img src="Images/image1.jpg">
+ </div>
+ 
+ <button onclick="changeImage('Images/image1.jpg')">Image-1</button>
+ <button onclick="changeImage('Images/image2.jpg')">Image-2</button>
+ <button onclick="changeImage('Images/image3.jpeg')">Image-3</button>
+ <script src="JS/DOM/Onclick.js"></script>
+</body>
+</html>
